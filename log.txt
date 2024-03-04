@@ -1,0 +1,62 @@
+    1  cd c
+    2  cd
+    3  cd ..
+    4  cd ..
+    5  cd ..
+    6  cd ..
+    7  mkdir Assess_1361
+    8  git init
+    9  cd Assess_1361
+   10  git init
+   11  pwd
+   12  mkdir img
+   13  cd img
+   14  cd Assess_1361
+   15  vi hello.c
+   16  cat hello.c
+   17  git add hello.c
+   18  git commit -m "c file"
+   19  git config --global user.email "yogeshdeora428@gmail.com"
+   20  git config --global user.name "Yogesh_Deora"
+   21  git add hello.c
+   22  git commit -m "c file"
+   23  cd ..
+   24  vi hyy.c
+   25  git add hyy.c
+   26  git commit -m "c_file"
+   27  vi hyy.txt
+   28  git add hyy.txt
+   29  git commit -m "hyy.txt"
+   30  vi hyy.html
+   31  git add hyy.html
+   32  git commit -m "html file"
+   33  vi hyy.img
+   34  git add hyy.img
+   35  git commit -m "hyy.img"
+   36  git log
+   37  vi hyy.c
+   38  git add hyy.c
+   39  git commit -m "added 2nd line to c file"
+   40  git log
+   41  git remote add origin https://github.com/YogeshDeora/scm_.git
+   42  git push -u origin scm_
+   43  git push -u origin master
+   44  cd img
+   45  vi .gitignore
+   46  git add .gitignore
+   47  git commit -m "ignore all c , txt and img files"
+   48  git clone https://github.com/YogeshDeora/scm_.git
+   49  git add .
+   50  git commit -m "copied data from Assess_1361 to img"
+   51  vi hyy.c
+   52  git add hyy.c
+   53  git cmmit -m "c file"
+   54  git commit -m "c file added"
+   55  git status
+   56  vi hyy.img
+   57  git add hyy.img
+   58  git commit -m "ss added"
+   59  cd ..
+   60  history
+
+
